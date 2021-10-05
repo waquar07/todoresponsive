@@ -1,0 +1,303 @@
+
+.container2{
+    border: 1px solid white;
+    width: 721px;
+    height: 500px;
+    position: relative;
+    left: 299px;
+    top: 67px;
+}
+.box{
+    border: 1px solid crimson;
+    width: 181px;
+    height: 265px;
+    position: absolute;
+    left: 23px;
+    top: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 5px 15px grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    padding-top: 32px;
+}
+hr{
+    top: -7px;
+    position: relative;
+    left: 14px;
+    width: 153px;
+}
+.box1{
+    text-align: center;
+    color: crimson;
+
+
+}
+.box2{
+    text-align: center;
+    color: crimson;
+    position: absolute;
+    left: 268px;
+    font-family: 'Heebo' , sans-serif;
+}
+.box3{
+    text-align: center;
+    color: crimson;
+    position: absolute;
+    left: 511px;
+    font-family: 'Heebo' , sans-serif;
+}
+.one{
+    font-size: 21px;
+    padding-left: 26px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -10px;
+}
+.kkkk{
+    border-top: 3px solid red;
+    top: -14px;
+    left: -9px;
+    position: relative;
+}
+.llll{
+    border-top: 3px solid red;
+    top: -14px;
+    left: -9px;
+    position: relative;
+}
+.mmmm{
+    border-top: 3px solid red;
+    top: -14px;
+    left: -9px;
+    position: relative;
+}
+.pending{
+    position: relative;
+    color: dimgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    top: 14px;
+    left: -14px;
+}
+.check{
+    position: relative;
+    top: 14px;
+    left: -10px;
+}
+h1{
+    font-family: arial;
+    position: relative;
+    top: 239px;
+    left: 320px;
+    font-size: 51px;
+}
+.text1{
+    position: relative;
+    left: 473px;
+    top: 144px;
+    font-size: 46px;
+    font-family: 'Heebo', sans-serif;
+    font-stretch: ultra-condensed;
+    color: darkgray;
+}
+.container{
+    position: relative;
+    top: -194px;
+}
+.text2{
+    position: relative;
+    top: 100px;
+    left: 884px;
+    font-family: system-ui;
+    color: darkgray;
+    font-size: 26px;
+}
+.plus{
+    border: 0px solid;
+    background-color: crimson;
+    height: 50px;
+    width: 50px;
+    border-radius: 2px;
+}
+.plus{
+    border: 0px solid;
+    background-color: crimson;
+    height: 24px;
+    width: 24px;
+    border-radius: 25px;
+    position: relative;
+    /* right: 60px; */
+    margin-left: 853px;
+    top: 72px;
+}
+.plus1{
+    position: relative;
+    top: 48px;
+    left: 859px;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+
+@media screen and (min-width:360px) and (max-width:640px) {
+    h1{
+        font-family: arial;
+        position: relative;
+        top: 223px;
+        left: 7px;
+        font-size: 49px;
+    }
+
+    .text1{
+        position: relative;
+        left: 154px;
+        top: 127px;
+        font-size: 49px;
+        font-family: 'Heebo', sans-serif;
+        font-stretch: ultra-condensed;
+        color: darkgray;
+    }
+
+    .plus{
+        border: 0px solid;
+        background-color: crimson;
+        height: 30px;
+        width: 30px;
+        border-radius: 25px;
+        position: relative;
+        margin-left: 287px;
+        top: 44px;
+    }
+
+    .plus1{
+        position: relative;
+        top: 10px;
+        left: 293px;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    hr{
+        top: -7px;
+    position: relative;
+    left: 14px;
+    width: 153px;
+    display: none;
+    }
+
+    .box1{
+        text-align: center;
+        color: crimson
+        border 1px solid crimson;
+        width: 251px;
+        height: 46px;
+        position: absolute;
+        left: -266px;
+        top: -18px;
+        border-radius: 10px;
+        box-shadow: 8px 5px 15px grey;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        padding-top: 13px;
+    }
+
+    .box2{
+        border: 1px solid crimson;
+        width: 251px;
+        height: 46px;
+        position: absolute;
+        left: -266px;
+        top: 61px;
+        border-radius: 10px;
+        box-shadow: 8px 5px 15px grey;
+        font-size: 26px;
+        padding-top: 13px;
+        text-align: center;
+        color: red;
+        /* position: absolute;
+        left: -266px; */
+        font-family: 'Heebo' , sans-serif;
+    }
+
+    .box3{
+        text-align: center;
+        color: red;
+        position: absolute;
+        left: -266px;
+        font-family: 'Heebo' , sans-serif;
+        left: -266px;
+        font-size: 26px;
+        padding-top: 13px;
+        top: 144px;
+        border-radius: 10px;
+        box-shadow: 8px 5px 15px grey;
+        width: 251px;
+        height: 46px;
+        border: 1px solid crimson;
+    }
+
+    .box4{
+        text-align: center;
+        color: red;
+        position: absolute;
+        left: -266px;
+        font-family: 'Heebo' , sans-serif;
+        left: -266px;
+        font-size: 26px;
+        padding-top: 13px;
+        top: 227px;
+        border-radius: 10px;
+        box-shadow: 8px 5px 15px grey;
+        width: 251px;
+        height: 46px;
+        border: 1px solid crimson;
+    }
+
+    .box5{
+        text-align: center;
+        color: red;
+        position: absolute;
+        left: -266px;
+        font-family: 'Heebo' , sans-serif;
+        left: -266px;
+        font-size: 26px;
+        padding-top: 13px;
+        top: 317px;
+        border-radius: 10px;
+        box-shadow: 8px 5px 15px grey;
+        width: 251px;
+        height: 46px;
+        border: 1px solid crimson;
+    }
+
+    .pending{
+        position: relative;
+    color: dimgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    top: 14px;
+    left: -14px;
+    display: none;
+    }
+
+    .check{
+        position: relative;
+    top: 14px;
+    left: -10px;
+    display: none;
+    }
+
+    .one{
+        font-size: 21px;
+    padding-left: 26px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -10px;
+    display: none;
+    }
+}
