@@ -1,303 +1,150 @@
-
-.container2{
-    border: 1px solid white;
-    width: 721px;
-    height: 500px;
-    position: relative;
-    left: 299px;
-    top: 67px;
-}
-.box{
-    border: 1px solid crimson;
-    width: 181px;
-    height: 265px;
-    position: absolute;
-    left: 23px;
-    top: 20px;
-    border-radius: 10px;
-    box-shadow: 8px 5px 15px grey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
-    padding-top: 32px;
-}
-hr{
-    top: -7px;
-    position: relative;
-    left: 14px;
-    width: 153px;
-}
-.box1{
-    text-align: center;
-    color: crimson;
-
-
-}
-.box2{
-    text-align: center;
-    color: crimson;
-    position: absolute;
-    left: 268px;
-    font-family: 'Heebo' , sans-serif;
-}
-.box3{
-    text-align: center;
-    color: crimson;
-    position: absolute;
-    left: 511px;
-    font-family: 'Heebo' , sans-serif;
-}
-.one{
-    font-size: 21px;
-    padding-left: 26px;
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    left: -10px;
-}
-.kkkk{
-    border-top: 3px solid red;
-    top: -14px;
-    left: -9px;
-    position: relative;
-}
-.llll{
-    border-top: 3px solid red;
-    top: -14px;
-    left: -9px;
-    position: relative;
-}
-.mmmm{
-    border-top: 3px solid red;
-    top: -14px;
-    left: -9px;
-    position: relative;
-}
-.pending{
-    position: relative;
-    color: dimgrey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    top: 14px;
-    left: -14px;
-}
-.check{
-    position: relative;
-    top: 14px;
-    left: -10px;
-}
-h1{
-    font-family: arial;
-    position: relative;
-    top: 239px;
-    left: 320px;
-    font-size: 51px;
-}
-.text1{
-    position: relative;
-    left: 473px;
-    top: 144px;
-    font-size: 46px;
-    font-family: 'Heebo', sans-serif;
-    font-stretch: ultra-condensed;
-    color: darkgray;
-}
-.container{
-    position: relative;
-    top: -194px;
-}
-.text2{
-    position: relative;
-    top: 100px;
-    left: 884px;
-    font-family: system-ui;
-    color: darkgray;
-    font-size: 26px;
-}
-.plus{
-    border: 0px solid;
-    background-color: crimson;
-    height: 50px;
-    width: 50px;
-    border-radius: 2px;
-}
-.plus{
-    border: 0px solid;
-    background-color: crimson;
-    height: 24px;
-    width: 24px;
-    border-radius: 25px;
-    position: relative;
-    /* right: 60px; */
-    margin-left: 853px;
-    top: 72px;
-}
-.plus1{
-    position: relative;
-    top: 48px;
-    left: 859px;
-    color: white;
-    font-size: 21px;
+.task{
     font-weight: bold;
+    margin-left: 176px;
+    margin-top: 74px;
+    font-family: system-ui;
+    font-size: 3.2em;
+}
+
+.text1{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+    margin-top: -112px;
+    margin-left: 291px;
+    font-size: 46px;
+}
+
+.icon{
+    /* content: "\f055"; */
+    margin-left: 852px;
+    margin-top: -97px;
+    font-size: 30px;
+    color: orangered;
+}
+
+.add{
+    margin-top: -39px;
+    margin-left: 897px;
+    font-weight: 100;
+    font-size: 28px;
+    font-family: system-ui;
+}
+
+.cards{
+    border: 1px solid crimson;
+    width: 180px;
+    height: 265px;
+    border-radius: 10px;
+    font-size: 23px;
+    text-align: center;
+    color: red;
+    font-family: 'Heebo', 'sans-serif';
+    box-shadow: 3px 3px 5px gray;
+
+}
+
+.bottom_border{
+    border-bottom: 1px solid lightgray;
+    width: 152px;
+    position: relative;
+    left: 29px;
+    top: -17px;
+}
+
+.bottom_border1{
+    border-bottom: 2px solid red;
+    width: 135px;
+    margin-left: 27px;
+    margin-top: -11px;
+}
+
+.container{
+    margin-top: 78px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+}
+
+.pending{
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: -29px;
+    margin-left: 5px;
+}
+
+.check{
+    margin-top: 31px;
+    margin-left: -128px;
+}
+
+.line_task{
+    font-family: initial;
+    font-weight: bold;
+    color: red;
+    font-size: 19px;
+    margin-left: 22px;
 }
 
 
+@media screen and (max-width:360px) {
+    .container{
+        flex-direction: column;
+        width: 600px;
+        height: auto;
+        justify-content: space-evenly;
+    }
 
-@media screen and (min-width:360px) and (max-width:640px) {
-    h1{
-        font-family: arial;
+    .cards{
+        margin-left: 148px;
+    width: 614px;
+    height: 164px;
+    margin-bottom: 52px;
+    color: darkgray;
+    width: 614px;
+    height: 164px;
+    font-size: 53px;
+    font-weight: bold;
+    box-shadow: 16px 16px 10px lightgray;
+
+    }
+
+    .pending{
+        display: none;
+    }
+
+    .check{
+        display: none;
+    }
+
+    .bottom_border{
+        display: none;
+    }
+
+    .bottom_border1{
+        display: none;
+    }
+
+    .line_task{
+        display: none;
+    }
+
+    .add{
+        display: none;
+    }
+
+    .task{
+        font-size: 90px;
         position: relative;
-        top: 223px;
-        left: 7px;
-        font-size: 49px;
+        top: 37px;
+        left: -50px;
     }
 
     .text1{
         position: relative;
-        left: 154px;
-        top: 127px;
-        font-size: 49px;
-        font-family: 'Heebo', sans-serif;
-        font-stretch: ultra-condensed;
-        color: darkgray;
-    }
-
-    .plus{
-        border: 0px solid;
-        background-color: crimson;
-        height: 30px;
-        width: 30px;
-        border-radius: 25px;
-        position: relative;
-        margin-left: 287px;
-        top: 44px;
-    }
-
-    .plus1{
-        position: relative;
-        top: 10px;
-        left: 293px;
-        color: white;
-        font-size: 30px;
-        font-weight: bold;
-    }
-
-    hr{
-        top: -7px;
-    position: relative;
-    left: 14px;
-    width: 153px;
-    display: none;
-    }
-
-    .box1{
-        text-align: center;
-        color: crimson
-        border 1px solid crimson;
-        width: 251px;
-        height: 46px;
-        position: absolute;
-        left: -266px;
-        top: -18px;
-        border-radius: 10px;
-        box-shadow: 8px 5px 15px grey;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 26px;
-        padding-top: 13px;
-    }
-
-    .box2{
-        border: 1px solid crimson;
-        width: 251px;
-        height: 46px;
-        position: absolute;
-        left: -266px;
-        top: 61px;
-        border-radius: 10px;
-        box-shadow: 8px 5px 15px grey;
-        font-size: 26px;
-        padding-top: 13px;
-        text-align: center;
-        color: red;
-        /* position: absolute;
-        left: -266px; */
-        font-family: 'Heebo' , sans-serif;
-    }
-
-    .box3{
-        text-align: center;
-        color: red;
-        position: absolute;
-        left: -266px;
-        font-family: 'Heebo' , sans-serif;
-        left: -266px;
-        font-size: 26px;
-        padding-top: 13px;
-        top: 144px;
-        border-radius: 10px;
-        box-shadow: 8px 5px 15px grey;
-        width: 251px;
-        height: 46px;
-        border: 1px solid crimson;
-    }
-
-    .box4{
-        text-align: center;
-        color: red;
-        position: absolute;
-        left: -266px;
-        font-family: 'Heebo' , sans-serif;
-        left: -266px;
-        font-size: 26px;
-        padding-top: 13px;
-        top: 227px;
-        border-radius: 10px;
-        box-shadow: 8px 5px 15px grey;
-        width: 251px;
-        height: 46px;
-        border: 1px solid crimson;
-    }
-
-    .box5{
-        text-align: center;
-        color: red;
-        position: absolute;
-        left: -266px;
-        font-family: 'Heebo' , sans-serif;
-        left: -266px;
-        font-size: 26px;
-        padding-top: 13px;
-        top: 317px;
-        border-radius: 10px;
-        box-shadow: 8px 5px 15px grey;
-        width: 251px;
-        height: 46px;
-        border: 1px solid crimson;
-    }
-
-    .pending{
-        position: relative;
-    color: dimgrey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    top: 14px;
-    left: -14px;
-    display: none;
-    }
-
-    .check{
-        position: relative;
-    top: 14px;
-    left: -10px;
-    display: none;
-    }
-
-    .one{
-        font-size: 21px;
-    padding-left: 26px;
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    left: -10px;
-    display: none;
+        top: 33px;
+        margin-top: -188px;
+        left: 33px;
+        font-size: 76px;
     }
 }
