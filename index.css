@@ -96,16 +96,16 @@
     }
 
     .cards{
+        margin-bottom: 21px;
+        color: darkgray;
+        width: 594px;
+        height: 134px;
+        font-size: 45px;
+        font-weight: bold;
+        box-shadow: 16px 16px 10px lightgrey;
+        left: -144px;
+        position: relative;
         margin-left: 148px;
-    width: 614px;
-    height: 164px;
-    margin-bottom: 52px;
-    color: darkgray;
-    width: 614px;
-    height: 164px;
-    font-size: 53px;
-    font-weight: bold;
-    box-shadow: 16px 16px 10px lightgray;
 
     }
 
@@ -135,16 +135,23 @@
 
     .task{
         font-size: 90px;
-        position: relative;
-        top: 37px;
-        left: -50px;
+    position: relative;
+    top: 37px;
+    left: -140px;
     }
 
     .text1{
         position: relative;
         top: 33px;
-        margin-top: -188px;
-        left: 33px;
+        margin-top: -194px;
+        left: -46px;
         font-size: 76px;
+    }
+
+    .icon{
+        margin-left: 486px;
+    margin-top: -137px;
+    font-size: 60px;
+    color: orangered;
     }
 }
