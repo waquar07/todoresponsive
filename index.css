@@ -87,12 +87,13 @@
 }
 
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:600px) {
     .container{
         flex-direction: column;
         width: 600px;
         height: auto;
         justify-content: space-evenly;
+        margin-top: 61px;
     }
 
     .cards{
@@ -142,16 +143,17 @@
 
     .text1{
         position: relative;
-        top: 33px;
-        margin-top: -194px;
-        left: -46px;
-        font-size: 76px;
+    top: 48px;
+    margin-top: -194px;
+    left: -46px;
+    font-size: 76px;
+    font-family: 'Heebo', sans-serif;
     }
 
     .icon{
         margin-left: 486px;
-    margin-top: -137px;
-    font-size: 60px;
-    color: orangered;
+        margin-top: -106px;
+        font-size: 60px;
+        color: orangered;
     }
 }
