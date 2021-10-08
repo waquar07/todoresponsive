@@ -150,61 +150,61 @@
 
 @media screen and (min-width:360px) and (max-width:600px){
     .cards{
-        margin-top: 369px;
-        margin-left: -458px;
-        width: 403px;
-        height: 542px;
+        margin-top: 0px;
+    margin-left: -563px;
+    width: 403px;
+    height: 542px;
     }
 
     .border{
-        margin-left: 102px;
-        margin-top: 712px;
-        /* margin-left: 109px; */
-        height: 251px;
-        width: 485px;
+        margin-left: 9px;
+    margin-top: 339px;
+    /* margin-left: 109px; */
+    height: 251px;
+    width: 477px;
     }
 
     .border1{
-        top: 560px;
-        width: 321px;
-        height: 61px;
-        left: -313px;
+        top: 205px;
+    width: 321px;
+    height: 61px;
+    left: -420px;
     }
 
     .btn{
-        top: 643px;
-    left: -198px;
+        top: 281px;
+    left: -288px;
     width: 90px;
     height: 50px;
     }
 
     .icon{
-        top: 420px;
+        top: 88px;
         font-size: 78px;
-        left: 153px;
+        left: 69px;
     }
 
     .one{
-        top: 375px;
-        left: 254px;
+        top: 38px;
+        left: 157px;
         font-size: 56px;
     }
 
     .two{
-        top: 366px;
-    font-size: 62px;
-    left: 372px;
+        top: 29px;
+        font-size: 62px;
+        left: 285px;
     }
      
     .three{
-        top: 388px;
-    left: 433px;
+        top: 55px;
+        left: 367px;
     }
 
     .lorem{
-        top: 476px;
-        left: -231px;
-        font-size: 29px;
+        top: 115px;
+    left: -341px;
+    font-size: 29px;
     }
 
     .new{
