@@ -1,0 +1,268 @@
+.task{
+    font-weight: bold;
+    margin-left: 176px;
+    margin-top: 74px;
+    font-family: system-ui;
+    font-size: 3.2em;
+}
+
+.text1{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+    margin-top: -112px;
+    margin-left: 291px;
+    font-size: 46px;
+}
+
+.main{
+    /* border: 2px solid black;
+    height: auto; */
+    /* width: 100%; */
+    filter: blur(13px);
+    position: relative;
+
+} 
+
+.icon{
+    /* content: "\f055"; */
+    margin-left: 852px;
+    margin-top: -97px;
+    font-size: 30px;
+    color: orangered;
+}
+
+.add{
+    margin-top: -39px;
+    margin-left: 897px;
+    font-weight: 100;
+    font-size: 28px;
+    font-family: system-ui;
+}
+
+.cards{
+    border: 1px solid crimson;
+    width: 180px;
+    height: 265px;
+    border-radius: 10px;
+    font-size: 23px;
+    text-align: center;
+    color: red;
+    font-family: 'Heebo', 'sans-serif';
+    box-shadow: 3px 3px 5px gray;
+
+}
+
+.bottom_border{
+    border-bottom: 1px solid lightgray;
+    width: 152px;
+    position: relative;
+    left: 29px;
+    top: -17px;
+}
+
+.bottom_border1{
+    border-bottom: 2px solid red;
+    width: 135px;
+    margin-left: 27px;
+    margin-top: -11px;
+}
+
+
+/* .container{
+    top: 78px;
+    /* display: flex; */
+    /* position: relative; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    /* filter: blur(13px); */
+    /* margin-top: 78px;
+    display: flex;
+    position: relative; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly;
+    filter: blur(13px);*/
+
+
+
+.pending{
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: -29px;
+    margin-left: 5px;
+}
+
+.check{
+    margin-top: 31px;
+    margin-left: -128px;
+}
+
+.line_task{
+    font-family: initial;
+    font-weight: bold;
+    color: red;
+    font-size: 19px;
+    margin-left: 22px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+
+
+
+
+.border{
+    border-radius: 14px;
+    border: 1px solid crimson;
+    /* position: absolute; */
+    height: 163px;
+    position: relative;
+    width: 388px;
+    z-index: 5px;
+    top: -206px;
+    left: 561px;
+    box-shadow: 6px 4px 11px grey;
+    
+    
+}
+.lorem{
+    top: 1px;
+    position: absolute;
+    color: orangered;
+    font-family: sans-serif;
+    font-stretch: extra-expanded;
+    left: 132px;
+    font-size: 22px;
+}
+.border1{
+    border-radius: 7px;
+    position: absolute;
+    border: 1px solid orangered;
+    height: 33px;
+    width: 250px;
+    top: 63px;
+    left: 70px;
+    text-decoration: none;
+}
+.btn{
+    position: absolute;
+    top: 107px;
+    left: 66ox;
+    left: 156px;
+    border-radius: 30px;
+    background-color: orangered;
+    color: white;
+    width: 75px;
+    height: 41px;
+    font-size: 20px;
+    border-color: snow;
+}
+
+
+
+
+
+
+@media screen and (min-width:360px) and (max-width:600px) {
+    .container{
+        flex-direction: column;
+        width: 600px;
+        height: auto;
+        justify-content: space-evenly;
+        margin-top: 61px;
+        filter: blur(12px);
+    }
+
+
+
+    .link{
+        text-decoration: none;
+    }
+
+    .cards{
+        margin-bottom: 21px;
+        color: darkgray;
+        width: 594px;
+        height: 134px;
+        font-size: 45px;
+        font-weight: bold;
+        box-shadow: 16px 16px 10px lightgrey;
+        left: -144px;
+        position: relative;
+        margin-left: 148px;
+
+    }
+
+    .pending{
+        display: none;
+    }
+
+    .check{
+        display: none;
+    }
+
+    .bottom_border{
+        display: none;
+    }
+
+    .bottom_border1{
+        display: none;
+    }
+
+    .line_task{
+        display: none;
+    }
+
+    .add{
+        display: none;
+    }
+
+    .task{
+        font-size: 90px;
+    position: relative;
+    top: 37px;
+    left: -140px;
+    }
+
+    .text1{
+        position: relative;
+    top: 34px;
+    margin-top: -194px;
+    left: -46px;
+    font-size: 76px;
+    font-family: 'Heebo', sans-serif;
+    }
+
+    .icon{
+        margin-left: 480px;
+        margin-top: -129px;
+        font-size: 60px;
+        color: orangered;
+    }
+    
+    .btn{
+        top: 112px;
+    }
+
+    .lorem{
+        top: -1px;
+    position: absolute;
+    color: orangered;
+    font-family: sans-serif;
+    font-stretch: extra-expanded;
+    left: 126px;
+    font-size: 26px;
+    }
+
+    .border{
+        width: 377px;
+    position: relative;
+    left: 122px;
+    top: -573px;
+    /* bottom: -41px; */
+    /* top: 118px; */
+    height: 176px;
+    }
+}

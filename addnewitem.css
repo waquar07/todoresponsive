@@ -1,0 +1,223 @@
+.one{
+    position: absolute;
+    font-weight: bold;
+    font-size: 50px;
+    left: 583px;
+    top: 50px;
+    filter: blur(7px);
+}
+
+.two{
+    position: absolute;
+    font-weight: bold;
+    font-size: 50px;
+    left: 692px;
+    top: 50px;
+    filter: blur(7px);
+}
+
+.three{
+    font-size: 50px;
+    position: absolute;
+    left: 751px;
+    font-weight: bold;
+    top: 50px;
+    filter: blur(7px);
+}
+
+.icon{
+    position: absolute;
+    top: 106px;
+    font-size: 44px;
+    color: orangered;
+    left: 516px;
+    filter: blur(6px);
+}
+
+.cards{
+    filter: blur(8px);
+    position: absolute;
+    border: 1px solid crimson;
+    width: 195px;
+    height: 279px;
+    border-radius: 10px;
+    font-size: 23px;
+    text-align: center;
+    color: red;
+    font-family: 'Heebo', 'sans-serif';
+    box-shadow: 3px 3px 5px grey;
+    top: 189px;
+    left: 616px;
+}
+
+.fa-plus-circle{
+    position: absolute;
+    right: 20px;
+    bottom: 24px;
+    font-size: 32px;
+}
+
+.bottom_border{
+    border-bottom: 1px solid lightgray;
+    width: 152px;
+    position: relative;
+    left: 29px;
+    top: -17px;
+}
+
+.bottom_border1{
+    border-bottom: 2px solid red;
+    width: 135px;
+    margin-left: 27px;
+    margin-top: -11px;
+}
+
+.pending{
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: -23px;
+    margin-left: 5px;
+}
+
+.check{
+    margin-top: 31px;
+    margin-left: -128px;
+}
+
+.line_task{
+    font-family: initial;
+    font-weight: bold;
+    color: red;
+    font-size: 19px;
+    margin-left: 22px;
+}
+
+.border{
+    margin-left: 503px;
+    border-radius: 14px;
+    border: 1px solid crimson;
+    /* position: absolute; */
+    height: 163px;
+    /* position: relative; */
+    width: 388px;
+    z-index: 5px;
+    /* top: -212px; */
+    /* left: 556px; */
+    box-shadow: 6px 4px 11px grey;
+    /* position: inherit; */
+    margin-top: 246px;
+    
+}
+.lorem{
+    top: 1px;
+    position: absolute;
+    color: orangered;
+    font-family: sans-serif;
+    font-stretch: extra-expanded;
+    left: 132px;
+    font-size: 22px;
+    margin-left: 501px;
+    margin-top: 268px;
+}
+.border1{
+    margin-left: 510px;
+    margin-top: 250px;
+    border-radius: 7px;
+    position: absolute;
+    border: 1px solid orangered;
+    height: 33px;
+    width: 250px;
+    top: 63px;
+    left: 70px;
+    text-decoration: none;
+}
+.btn{
+    margin-left: 509px;
+    position: absolute;
+    top: 107px;
+    left: 66ox;
+    left: 156px;
+    border-radius: 30px;
+    background-color: orangered;
+    color: white;
+    width: 75px;
+    height: 41px;
+    font-size: 20px;
+    border-color: snow;
+    margin-top: 253px;
+}
+
+@media screen and (min-width:360px) and (max-width:600px){
+    .cards{
+        margin-top: 369px;
+        margin-left: -458px;
+        width: 403px;
+        height: 542px;
+    }
+
+    .border{
+        margin-left: 102px;
+        margin-top: 712px;
+        /* margin-left: 109px; */
+        height: 251px;
+        width: 485px;
+    }
+
+    .border1{
+        top: 560px;
+        width: 321px;
+        height: 61px;
+        left: -313px;
+    }
+
+    .btn{
+        top: 643px;
+    left: -198px;
+    width: 90px;
+    height: 50px;
+    }
+
+    .icon{
+        top: 420px;
+        font-size: 78px;
+        left: 153px;
+    }
+
+    .one{
+        top: 375px;
+        left: 254px;
+        font-size: 56px;
+    }
+
+    .two{
+        top: 366px;
+    font-size: 62px;
+    left: 372px;
+    }
+     
+    .three{
+        top: 388px;
+    left: 433px;
+    }
+
+    .lorem{
+        top: 476px;
+        left: -231px;
+        font-size: 29px;
+    }
+
+    .new{
+        top: 0px;
+    left: 62px;
+    position: absolute;
+    }
+
+    .to{
+        position: absolute;
+    left: 126px;
+    }
+
+
+
+}
